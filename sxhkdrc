@@ -35,15 +35,23 @@ ctrl + Print
 ## 10r Load Firefox
 ctrl + alt + {h,j}
     {./40_Movement/Downloads/40_Transfer/qutebrowser/qutebrowser.py,firefox}
+## hq Navigate to Firefox
+# super + {h,j}
+#     xdotool search --class {./40_Movement/Downloads/40_Transfer/qutebrowser.py,firefox} windowactivate
+## hq oq Navigate Application
+alt + _ + {r,t,h,j,n}
+    hq_navigate_application {urxvt,st,./.40_Movement/Downloads/40_Transfer/qutebrowser/qutebrowser.py,firefox,icedove}
 ### 60m Email Clients
 #### 10r Load Icedove
 ctrl + alt + n
     icedove
+super + n
+    xdotool search --class icedove windowactivate
 ## 60 System
 ### 60m System Monitoring Tools
 #### 10 Activity
 ##### 60m Terminals
-ctrl + alt {4,5}
+ctrl + alt {r,t}
     {urxvtcd,st}
 #### 40u Navigation
 ##### 60m Menus
@@ -51,7 +59,7 @@ ctrl + alt {4,5}
 	# dmenu_run
 ##### 60m File Managers
 # Load Ranger with Vim as Editor
-super + f
+ctrl + alt + f
     export EDITOR=vim && urxvtcd -e ranger
 #### 50i Access
 ##### 60m Locking Mechanisms
@@ -69,7 +77,7 @@ super + alt + Escape
 ### 60m Sxhkd
 # make sxhkd reload its configuration files:
 ctrl + Escape
-    pkill -USR1 -x sxhkd; dunstify "Sxhkd configuration reloaded"
+    pkill -USR1 -x sxhkd; dunst notify-send -h int:value:42 "Sxhkd configuration reloaded"
 # make sxhkd reload its configuration files:
 super + Escape
 	pkill -USR1 -x sxhkd
@@ -155,6 +163,9 @@ super + d
 super + l
     ~/.config/bspwm/iq_utilities/switch.sh
 ## 10r Resize
+# Resize according to xdotool man example script
+super + shift {r,t,y,u}
+    ~/60o_Control_Qiuy/30_Display/gq_panels/oq_xdotool/rq_alter_panels.sh {urxvt 600 400,urxvtcd 600 400,firefox 600 400,icedove 600 400}
 # Resize floating windows
 super + shift + {h,l,k,j}
     xdo resize {-w -50,-w +50,-h -50,-h +50}
@@ -192,11 +203,13 @@ alt + {_,ctrl+ }{1-9,0}
 # XF86AudioMute
 #     amixer set Master toggle
 # XF86AudioLowerVolume
-#     amixer -c 0 set Master 1dB-
-# XF86AudioRaiseVolume
-#     amixer -c 0 set Master 1dB+
+super + [
+    amixer -c 0 set Master 5dB-
+super + ]
+    amixer -c 0 set Master 5dB+
 # application actions
 #
+
 # super + bracketleft
 # pamixer --increase 5
 # XF86AudioRaiseVolume
@@ -209,7 +222,7 @@ alt + {_,ctrl+ }{1-9,0}
 # pamixer --toggle-mute
 # XF86AudioMute
 # pamixer --toggle-mute
-# XF86Audio{Prev,Next}
+XF86Audio{Prev,Next}
     ~/.config/bspwm/iq_utilities/player {prev,next}
 
 XF86AudioStop
