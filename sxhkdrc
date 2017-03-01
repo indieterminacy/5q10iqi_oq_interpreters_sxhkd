@@ -81,7 +81,7 @@ ctrl + alt + f
 ## 10r Quit
 # general hotkeys
 alt + super + Escape
-   ~/.config/bspwm/iq_utilities/killall ; bspc quit 1
+   ~/1q_ctrl-qiuy/50_Environment/rqr_terminating/oq_bash/oqo_scripts/rqr_oq_terminating_applications.sh ; bspc quit 1
 
 ### 60 Window Managers
 #### 60 BSPWM
@@ -91,12 +91,8 @@ super + alt + Escape
 ## 10r Update
 ### 60m Sxhkd
 # make sxhkd reload its configuration files:
-ctrl + Escape
-    pkill -USR1 -x sxhkd; dunst notify-send -h int:value:42 "Sxhkd configuration reloaded"
-
-# make sxhkd reload its configuration files:
 super + Escape
-	pkill -USR1 -x sxhkd
+    pkill -USR1 -x sxhkd; notify-send -h int:value:42 "Sxhkd configuration reloaded"
 
 # 60 System
 ## 10 Update Programs
@@ -174,7 +170,7 @@ super + shift + 5
 ### 10r Toggle Visibility
 # Toggle visibility status bar
 super + space
-    ~/.config/bspwm/iq_utilities/hide dzen2-bottom-status-bar
+    ~/1q_ctrl-qiuy/50_Environment/rqr_hiding/rqr_window-managers/oq_zsh/oqo_scripts/rqr_iqi_hiding_window-managers.zsh dzen2-bottom-status-bar
 
 ### 10r Toggle Dmenu
 # Show dmenu bar
@@ -187,7 +183,7 @@ ctrl + shift + space
 
 ### 30t Hide Windows
 # un/hide currently active window
-super + {_,shift} + u
+super + alt + {u,U}
     ~/.config/bspwm/iq_utilities/toggle {hide,show}
 
 # Show Desktop & Bar
@@ -219,7 +215,7 @@ super + shift + button{1-3}
 ## 10r Enlarge Window
 ### 10r Make Fullscreen
 alt + f
-    ~/.config/bspwm/iq_utilities/full
+    ~/1q_ctrl-qiuy/30_Display/rqr_resizing/iqi_window-managers/oq_bspwm/oq_zsh/oqo_scripts/yqy_fullscreen.zsh
 
 ### 10r Make Floating Terminal
 ctrl + shift + Return
