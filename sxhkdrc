@@ -140,32 +140,32 @@ super + 0
 #### 10r Alter Transparency
 ##### 10r Decrease Transparency
 super + alt + minus
-    ~/.config/bspwm/iq_utilities/terminal_transparency decrement
+    ~/1q_ctrl-qiuy/50_Environment/yq_transparency/oq_bspwm/oq_bash/oqo_scripts/terminal_transparency decrement
 
 ##### 10r Increase Transparency
 super + alt + plus
-    ~/.config/bspwm/iq_utilities/terminal_transparency increment
+    ~/1q_ctrl-qiuy/50_Environment/yq_transparency/oq_bspwm/oq_bash/oqo_scripts/terminal_transparency increment
 
 ##
 # top left
 super + shift + 1
-    ~/.config/bspwm/iq_utilities/preset 'top-left'
+    ~/1q_ctrl-qiuy/50_Environment/vqv_panels/oq_bspwm/oq_bash/oqo_scripts/preset 'top-left'
 
 # bottom left
 super + shift + 2
-    ~/.config/bspwm/iq_utilities/preset 'bottom-left'
+    ~/1q_ctrl-qiuy/50_Environment/vqv_panels/oq_bspwm/oq_bash/oqo_scripts/preset 'bottom-left'
 
 # vertical right
 super + shift + 3
-    ~/.config/bspwm/iq_utilities/preset 'vertical-right'
+    ~/1q_ctrl-qiuy/50_Environment/vqv_panels/oq_bspwm/oq_bash/oqo_scripts/preset 'vertical-right'
 
 # wide vertical left
 super + shift + 4;
-    ~/.config/bspwm/iq_utilities/preset 'wide-vertical-left'
+    ~/1q_ctrl-qiuy/50_Environment/vqv_panels/oq_bspwm/oq_bash/oqo_scripts/preset 'wide-vertical-left'
 
 # small bottom left
 super + shift + 5
-    ~/.config/bspwm/iq_utilities/preset 'small-bottom-left'
+    ~/1q_ctrl-qiuy/50_Environment/vqv_panels/oq_bspwm/oq_bash/oqo_scripts/preset 'small-bottom-left'
 
 ### 10r Toggle Visibility
 # Toggle visibility status bar
@@ -175,16 +175,16 @@ super + space
 ### 10r Toggle Dmenu
 # Show dmenu bar
 ctrl + space
-    ~/.config/bspwm/iq_utilities/application_launcher
+    ~/1q_ctrl-qiuy/50_Environment/iqi_loading/oq_zsh/oqo_scripts/iqi_oq_loading_applications.zsh
 
 # Show dmenu bar (windows)
 ctrl + shift + space
-    ~/.config/bspwm/iq_utilities/application_switcher
+    ~/1q_ctrl-qiuy/50_Environment/iqi_switching/oq_bash/oqo_scripts/iqi_oq_switching_applications.sh
 
 ### 30t Hide Windows
 # un/hide currently active window
 super + alt + {u,U}
-    ~/.config/bspwm/iq_utilities/toggle {hide,show}
+    ~/1q_ctrl-qiuy/30_Display/iqi_window-managers/oq_bspwm/oq_zsh/oqo_scripts/rqr_toggle.zsh {hide,show}
 
 # Show Desktop & Bar
 super + d
@@ -193,7 +193,7 @@ super + d
 ##
 ###
 super + l
-    ~/.config/bspwm/iq_utilities/switch.sh
+    ~/1q_ctrl-qiuy/50_Environment/mq_languages/iqi_states/oq_bspwm/oq_bash/oqo_scripts/iqi_mq_switch_languages.sh
 
 ## 10r Resize
 # Resize according to xdotool man example script
@@ -219,7 +219,7 @@ alt + f
 
 ### 10r Make Floating Terminal
 ctrl + shift + Return
-    ~/.config/bspwm/iq_utilities/floating_terminal
+    ~/1q_ctrl-qiuy/30_Display/iqi_window-managers/oq_bspwm/oq_zsh/oqo_scripts/yqy_cqc_floating_terminals.zsh
 
 # Toggle between floating or fullscreen for a window
 super + {s,f}
@@ -265,13 +265,13 @@ super + ]
 # XF86AudioMute
 # pamixer --toggle-mute
 XF86Audio{Prev,Next}
-    ~/.config/bspwm/iq_utilities/player {prev,next}
+    ~/1q_ctrl-qiuy/20_Content/rqr_playing/oq_bash/oqo_scripts/rqr_oqo_player.sh {prev,next}
 
 XF86AudioStop
-    ~/.config/bspwm/iq_utilities/player stop
+    ~/1q_ctrl-qiuy/20_Content/rqr_playing/oq_bash/oqo_scripts/rqr_oqo_player.sh stop
 
 XF86AudioPlay
-    ~/.config/bspwm/iq_utilities/player play
+    ~/1q_ctrl-qiuy/20_Content/rqr_playing/oq_bash/oqo_scripts/rqr_oqo_player.sh play
 # XF86AudioRaiseVolume
 # pulseaudio-ctl up
 # XF86AudioLowerVolume
@@ -348,7 +348,7 @@ super + @button{1-3}
 # q
 # shift + f - float
 alt + shift + f
-    ~/.config/bspwm/iq_utilities/floating
+    ~/1q_ctrl-qiuy/30_Display/iqi_window-managers/oq_bspwm/oq_zsh/oqo_scripts/yqy_cqc_floating_terminals.zsh
 
 # sticky window
 alt + s
