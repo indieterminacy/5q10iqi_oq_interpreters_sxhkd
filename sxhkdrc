@@ -49,14 +49,14 @@ alt + {o,p}
 #     xdotool search --class {./40_Movement/Downloads/40_Transfer/qutebrowser.py,firefox} windowactivate
 ## hq oq Navigate Application
 alt + _ + {r,t,n}
-    hq_oq_navigate_application {urxvt,st,icedove}
+    hq_oq_navigate_application {urxvt,st,thunderbird}
 
 ### 60m Email Clients
-#### 10r Load Icedove
+#### 10r Load Thunderbird
 ctrl + alt + n
-    icedove
+    thunderbird
 super + n
-    xdotool search --class icedove windowactivate
+    xdotool search --class thunderbird windowactivate
 
 ## 60 System
 ### 60m System Monitoring Tools
@@ -198,7 +198,7 @@ super + l
 ## 10r Resize
 # Resize according to xdotool man example script
 super + shift {r,t,y,u}
-    ~/60o_Control_Qiuy/30_Display/gq_panels/oq_xdotool/rq_alter_panels.sh {urxvt 600 400,urxvtcd 600 400,firefox 600 400,icedove 600 400}
+    ~/60o_Control_Qiuy/30_Display/gq_panels/oq_xdotool/rq_alter_panels.sh {urxvt 600 400,urxvtcd 600 400,firefox 600 400,thunderbird 600 400}
 
 # Resize floating windows
 super + shift + {h,l,k,j}
@@ -473,5 +473,3 @@ super + ctrl + {_,shift + }space
 # Invert screen
 alt + i
     xcalib -i -a
-
-###################################
