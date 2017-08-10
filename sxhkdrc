@@ -198,7 +198,7 @@ super + l
 ## 10r Resize
 # Resize according to xdotool man example script
 super + shift {r,t,y,u}
-    ~/60o_Control_Qiuy/30_Display/gq_panels/oq_xdotool/rq_alter_panels.sh {urxvt 600 400,urxvtcd 600 400,firefox 600 400,thunderbird 600 400}
+    ~/1q_ctrl-qiuy/30_Display/gq_panels/oq_xdotool/iqi_alter-panels.sh {urxvt 600 400,urxvtcd 600 400,firefox 600 400,thunderbird 600 400}
 
 # Resize floating windows
 super + shift + {h,l,k,j}
